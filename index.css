@@ -222,6 +222,10 @@ Global Classes
   gap: .5rem;
 }
 
+.contact-form .firstline .input-box {
+  flex-grow: 1;
+}
+
 .input-box label,
 .textarea-box label {
   position: absolute;
