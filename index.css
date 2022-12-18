@@ -38,7 +38,7 @@ Global Classes
 }
 
 .content {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 50px;
   padding-bottom: 50px;
 
@@ -174,7 +174,7 @@ Global Classes
 }
 
 .investigation-section img {
-  height: 400px;
+  max-height: 400px;
 }
 
 /* Footer Section */
@@ -186,7 +186,7 @@ Global Classes
 }
 
 .footer-left-col {
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .footer-left-col h1 {
@@ -262,8 +262,8 @@ Global Classes
 }
 
 .footer-left-col textarea{
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 500px;
+  max-width: 500px;
   min-height: 150px;
   max-height: 150px;
   padding: 10px 5px 5px;
@@ -363,7 +363,7 @@ Global Classes
   }
 
   .welcome-right-col img {
-    height: 400px;
+    max-height: 400px;
   } 
 
   .services-left-col, .services-right-col {
@@ -380,7 +380,7 @@ Global Classes
   }
 
   .services-left-col img{
-    height: 400px;
+    max-height: 400px;
   }
 
   .services-right-col {
@@ -388,11 +388,9 @@ Global Classes
   }
 
   .footer {
-    background-color: var(--primary-blue);
     padding: 40px 60px 50px;
-    display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .footer-left-col {
@@ -419,17 +417,70 @@ Global Classes
     font-size: 2.5rem;
   }
 
-  .topbar img {
+  .topbar {
     height: 80px;
+    padding-left: 20px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topbar img {
+    height: 70px;
   }
 
   .topbar .btn {
-
     padding: 5px 10px;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .footer {
+    gap: 3rem;
+  }
+
+  .footer-left-col {
+    max-width: 200px;
   }
 
   .footer-left-col h1 {
     font-size: 2.4rem;
+  }
+
+  .contact-form .firstline {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-left-col label,.footer-left-col input, .footer-left-col textarea {
+    font-size: 12px;
+  }
+
+  .footer-left-col textarea{
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .input-box input:valid ~ label,
+.input-box input:focus ~ label,
+.textarea-box textarea:valid ~ label,
+.textarea-box textarea:focus ~ label {
+  font-size: 8px;
+  transform: translateY(-24px);
+}
+
+  .footer-right-col{
+    align-self: center;
+    justify-content: center;
+  }
+
+  .footer-right-col img{
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .footer-right-col .copyright {
+    text-align: center;
+    font-size: 12px;
   }
 }
