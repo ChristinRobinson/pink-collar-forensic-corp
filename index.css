@@ -414,7 +414,7 @@ Global Classes
   h1 {
     color: var(--primary-blue);
     margin-bottom: 30px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .topbar {
@@ -444,7 +444,7 @@ Global Classes
   }
 
   .footer-left-col h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .contact-form .firstline {
