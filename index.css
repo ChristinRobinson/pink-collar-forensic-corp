@@ -24,7 +24,6 @@ h1 {
   font-size: 3rem;
 }
 
-
 /* 
 ==============
 Global Classes
@@ -126,7 +125,7 @@ Global Classes
 .welcome-left-col p {
   margin-top: 10px;
   margin-bottom: 10px;
-} 
+}
 
 
 /* Services Section */
@@ -142,8 +141,8 @@ Global Classes
   margin-left: auto;
 }
 
-.services-right-col p { 
-  margin-top: 10px;    
+.services-right-col p {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -231,7 +230,7 @@ Global Classes
   position: absolute;
   color: #777;
   text-transform: uppercase;
-  transition: 0.3s;  
+  transition: 0.3s;
 }
 
 .input-box label {
@@ -251,10 +250,10 @@ Global Classes
   border-color: var(--secondary-blue);
 }
 
-.input-box input:valid ~ label,
-.input-box input:focus ~ label,
-.textarea-box textarea:valid ~ label,
-.textarea-box textarea:focus ~ label {
+.input-box input:valid~label,
+.input-box input:focus~label,
+.textarea-box textarea:valid~label,
+.textarea-box textarea:focus~label {
   background-color: var(--primary-blue);
   color: #fff;
   padding-left: 5px;
@@ -265,7 +264,7 @@ Global Classes
   transform: translateY(-24px);
 }
 
-.footer-left-col textarea{
+.footer-left-col textarea {
   min-width: 500px;
   max-width: 500px;
   min-height: 150px;
@@ -352,7 +351,7 @@ Global Classes
     flex-direction: column;
     gap: 2rem;
   }
-  
+
   .welcome-left-col, .welcome-right-col {
     width: 100%;
     max-width: 600px;
@@ -368,7 +367,7 @@ Global Classes
 
   .welcome-right-col img {
     max-height: 400px;
-  } 
+  }
 
   .services-left-col, .services-right-col {
     width: 100%;
@@ -383,7 +382,7 @@ Global Classes
     align-self: flex-end;
   }
 
-  .services-left-col img{
+  .services-left-col img {
     max-height: 400px;
   }
 
@@ -450,35 +449,38 @@ Global Classes
   .footer-left-col h1 {
     font-size: 2rem;
   }
+  .footer-left-col .btn {
+    width: 100%;
+  }
 
   .contact-form .firstline {
     flex-direction: column;
     gap: 0;
   }
 
-  .footer-left-col label,.footer-left-col input, .footer-left-col textarea {
+  .footer-left-col label, .footer-left-col input, .footer-left-col textarea {
     font-size: 12px;
   }
 
-  .footer-left-col textarea{
+  .footer-left-col textarea {
     min-width: 200px;
     max-width: 200px;
   }
 
-  .input-box input:valid ~ label,
-.input-box input:focus ~ label,
-.textarea-box textarea:valid ~ label,
-.textarea-box textarea:focus ~ label {
-  font-size: 8px;
-  transform: translateY(-24px);
-}
+  .input-box input:valid~label,
+  .input-box input:focus~label,
+  .textarea-box textarea:valid~label,
+  .textarea-box textarea:focus~label {
+    font-size: 8px;
+    transform: translateY(-24px);
+  }
 
-  .footer-right-col{
+  .footer-right-col {
     align-self: center;
     justify-content: center;
   }
 
-  .footer-right-col img{
+  .footer-right-col img {
     width: 150px;
     margin: 0 auto;
   }
